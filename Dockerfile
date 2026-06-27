@@ -1,7 +1,7 @@
-VERSION 
+FROM openjdk:21
 
-WORKDIR ./app
+WORKDIR /app
 
-COPY ..
+COPY . .
 
-RUN 
+RUN javac WelcomeToDocker
