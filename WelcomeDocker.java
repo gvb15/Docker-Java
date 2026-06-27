@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 
-public class WelcomeToDocker {
+public class WelcomeDocker {
 
     public static void main(String[] args) throws IOException {
 
