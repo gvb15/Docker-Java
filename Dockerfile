@@ -5,3 +5,5 @@ WORKDIR /app
 COPY . .
 
 RUN javac WelcomeToDocker
+
+CMD ["java", "WelcomeToDocker"]
